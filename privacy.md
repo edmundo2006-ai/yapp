@@ -1,6 +1,6 @@
 # Privacy Policy for Yapp
 
-**Last updated:** 6 September 2026
+**Last updated:** 13 September 2026
 
 Yapp (previously Bulldog Menus) is an independent app built by a Yale student. This
 policy describes what the app collects, why, and what you can do about it. It is
@@ -22,6 +22,9 @@ they require signing in with your Yale Google account.
 When you sign in we receive and store **your yale.edu email address**. We use it to
 confirm you are at Yale, to attach your buttery orders to you, and to know which
 directory entry is yours. We do not receive your Google password.
+
+Google also sends us **your name and a link to your Google profile photo**, which are
+stored alongside your account. Neither is displayed anywhere in the app.
 
 The rest of the app, dining menus and hours, works without signing in.
 
@@ -50,8 +53,9 @@ this app at the next refresh.
 
 ## Buttery orders
 
-If you order from a buttery, we store the items, the price, the buttery, the status
-and your email address, so staff know whose order it is and you can see your history.
+If you order from a buttery, we store the items, the price, the buttery, the status,
+any note you add for the counter, and your email address, so staff know whose order it
+is and you can see your history.
 
 If you delete your account, past orders are kept as the buttery's own record of food
 it made, but your email address is removed from them so they are no longer connected
@@ -59,9 +63,18 @@ to you.
 
 ## Notifications
 
-If you turn on birthday reminders, we store a **push token** for your device so the
-notification can be delivered. It is deleted when you delete your account, and you can
-turn notifications off at any time in your phone's settings.
+There are two kinds and they work differently.
+
+**Buttery orders.** When you sign in, we store a **push token** for your device so we
+can tell you when your order is ready or has been cancelled. It is stored against your
+email address, so that the right phone gets the right order. We remove it when you
+sign out, and it is deleted when you delete your account.
+
+**Birthday reminders.** These are scheduled on your phone, by your phone. No token is
+needed and nothing is sent to us. They keep working with no internet connection, and
+they stop when you unstar someone or delete the app.
+
+You can turn notifications off at any time in your phone's settings.
 
 ## Location
 
@@ -75,9 +88,12 @@ You can decline and pick a starting point from a list instead.
 
 ## Kept only on your phone
 
-Saved birthdays, your food tracker entries, your dining hall order and your app
-preferences are stored on your device. They are not uploaded. Deleting the app removes
-them.
+Saved birthdays, your food tracker entries, your buttery cart and your app preferences
+are stored on your device. Deleting the app removes them.
+
+The one thing that leaves your phone is the list of people you have starred, which is
+sent each time the app asks whose birthday is coming up. It is used to answer that
+question and is never stored on our servers.
 
 ## What we do not do
 
